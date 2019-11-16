@@ -16,7 +16,7 @@
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" href="static/css/styling.css">
   </head>
-  <body class="body-tag" onload="sendGetRequestBlogs()">
+  <body class="body-tag" onload="sendGetRequestBlogs('all')">
 <div class="page-body">
 <!-- beginning -->
 
@@ -86,11 +86,17 @@
 <ul class="blogs-list" id="blogs-list-id"></ul>
 <!--<div id="pickingup-id" class="pickinguplists"><img src="static/images/pickinguplists.png"></div>-->
 </div>
-</div><div class="blog-area">
+</div>
+<div class="toggle-category-menu" id="toggle-category-menu-id">
+<span class="toggle-category-s" id="toggle-category-show" onclick="toggleCategoryShow()">Categories &nbsp;<i class="fa fa-bars"></i></span>
+<span class="toggle-category-h" id="toggle-category-hide" onclick="toggleCategoryHide()">Close &nbsp;<i class="fa fa-times" aria-hidden="true"></i></span>
+<div class="categories" id="category-menu-id">
+<span class="read-categories">Read by categories</span>
+<ul class="categories-list" id="categories-list-id"></ul>
+</div></div>
+<div class="blog-area">
 <div id="blog-area-id" class="blog-area-class">Click on any blog on the left to read</div>
 </div>
-
-
 </div>
 <!-- blog page content -->
 
