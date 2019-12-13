@@ -452,7 +452,7 @@ display:inline-block;
 @media only screen and (max-width:600px)
 {
 .toggle-blog-menu{width:18%;}
-.toggle-category-menu{margin-right:80px; width:24%;}
+.toggle-category-menu{margin-right:60px; width:25%;}
 .categories{width:35%;}
 }
 @media only screen and (max-width:500px)
@@ -464,7 +464,7 @@ display:inline-block;
 .categories-list li{font-size:14px;}
 .read-blogs{font-size: 18px;}
 .read-categories{font-size:18px;}
-.toggle-category-menu{margin-right:80px; width:30%;}
+.toggle-category-menu{margin-right:75px; width:30%;}
 .categories{width:45%;}
 .toggle-blog-menu{width:20%;}
 }
@@ -482,6 +482,10 @@ display:inline-block;
 .read-blogs{font-size: 16px;}
 .read-categories{font-size:16px;}
 .categories{width:48%;}
+}
+@media only screen and (max-width:350px)
+{
+.toggle-category-menu{margin-right:65px; width:30%;}
 }
 /* blogs content */
 
