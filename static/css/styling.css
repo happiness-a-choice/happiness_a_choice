@@ -82,6 +82,7 @@ font-size:18px;
 padding:2px;
 padding-right:50px;
 padding-left:50px;
+outline:none;
 }
 
 .menu{display:none; position:absolute;}
@@ -207,7 +208,7 @@ display:inline-block;
 /* carousel */
 .carousel-indicators{display:none;}
 .carousel-control{opacity:0; width:5%;}
-.carousel{background-image: url('../images/abc/william-farlow-IevaZPwq0mw-unsplash.jpg'); background-position:center; background-repeat:no-repeat; background-size:100% 100%; padding-top:0px; padding-bottom:10px; height:100vh; width:100vw;}
+.carousel{background-image: url('../images/abc/william-farlow-IevaZPwq0mw-unsplash.jpeg'); background-position:center; background-repeat:no-repeat; background-size:100% 100%; padding-top:0px; padding-bottom:10px; height:100vh; width:100vw;}
 
 .carousel-inner{width:50%; display:inline-block; vertical-align:middle; text-align:center; margin-top:50vh; float:left;}
 .carousel-caption {position:unset; right:0; left:0; top:0; bottom:0; padding:0; margin:0;}
